@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("../datos/ventas.csv")
 
 # Ventas totales
-ventas_totales = df["monto"].sum()
+ventas_totales = df["precio"].sum()
 
 # Producto más vendido
 producto_mas_vendido = df.groupby("producto")["cantidad"].sum().idxmax()
@@ -17,7 +17,7 @@ df["fecha"] = pd.to_datetime(df["fecha"])
 df["mes"] = df["fecha"].dt.month
 
 # Ventas por mes
-ventas_mes = df.groupby("mes")["monto"].sum()
+ventas_mes = df.groupby("mes")["precio"].sum()
 
 # Mostrar resultados
 print("Ventas totales:", ventas_totales)
