@@ -1,16 +1,42 @@
-# Proyecto - Analisis-ventas
+# Proyecto - Análisis de Ventas
 
-Trabajo Practico: Gestion colaborativa, control de versiones y Organizacion Empresarial (GIT, GitHub y Jira)
+## Trabajo Práctico
+Gestión Colaborativa, Control de Versiones y Organización Empresarial utilizando Git, GitHub, Jira y Google Colab.
 
-# Integrantes:
-P1: Hugo  
-P2: Paco  
-P3: Luis  
+## Integrantes del Equipo
+- P1 – Hugo: Organización y gestión del repositorio.
+- P2 – Paco: Desarrollo técnico y análisis de datos.
+- P3 – Luis: Control de calidad, documentación y revisión del proyecto.
 
-# Objetivo:
-Analizar ventas de una pequeña empresa utilizando lenguaje Python, GitHub, Jira y Google Colab.
+## Escenario Seleccionado
+Escenario B – Análisis de Ventas de una Pequeña Empresa.
 
-# Estructura:
-/Scripts  
-/Datos  
-/Resultados  
+## Objetivo del Proyecto
+Analizar datos de ventas comerciales utilizando Python para generar indicadores básicos y gráficos estadísticos que permitan interpretar el desempeño de una pequeña empresa.
+
+## Herramientas Utilizadas
+- Python
+- Google Colab
+- Git
+- GitHub
+- Jira
+- Pandas
+- Matplotlib
+
+## Estructura del Repositorio
+
+```text´´´
+analisis-ventas/
+│
+├── datos/
+│   └── ventas.csv
+│
+├── scripts/
+│   └── analisis_ventas.py
+│
+├── resultados/
+│   └── grafico_ventas.png
+│
+├── README.md
+│
+└── .gitignore
